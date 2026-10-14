@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ConsoleHUD Gamepad</string>
+    <string name="accessibility_service_name">ConsoleHUD Touch Mapper</string>
+    <string name="accessibility_service_description">Enables ConsoleHUD to simulate taps and gestures at mapped button coordinates over your favorite mobile games.</string>
+</resources>

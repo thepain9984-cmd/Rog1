@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Controller Body Outline / Shadow -->
+    <path
+        android:pathData="M34,36 C24,36 18,48 18,62 C18,74 24,80 30,78 C36,76 40,68 46,68 L62,68 C68,68 72,76 78,78 C84,80 90,74 90,62 C90,48 84,36 74,36 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#38BDF8">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="36"
+                android:endX="54"
+                android:endY="80"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#252A4A" />
+                <item android:offset="1.0" android:color="#141829" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Top Triggers / Bumpers -->
+    <path
+        android:pathData="M28,34 C28,31 34,30 40,31"
+        android:strokeWidth="3"
+        android:strokeColor="#818CF8"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M80,34 C80,31 74,30 68,31"
+        android:strokeWidth="3"
+        android:strokeColor="#F43F5E"
+        android:strokeLineCap="round" />
+
+    <!-- D-Pad (Left side) -->
+    <!-- Horizontal bar -->
+    <path
+        android:pathData="M27,53 L37,53"
+        android:strokeWidth="3.5"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round" />
+    <!-- Vertical bar -->
+    <path
+        android:pathData="M32,48 L32,58"
+        android:strokeWidth="3.5"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round" />
+
+    <!-- Action Buttons Diamond (Right side) -->
+    <!-- North / Y button -->
+    <path
+        android:pathData="M76,46 A 2.2 2.2 0 1 1 76,45.99 Z"
+        android:fillColor="#FBBF24" />
+    <!-- South / A button -->
+    <path
+        android:pathData="M76,60 A 2.2 2.2 0 1 1 76,59.99 Z"
+        android:fillColor="#10B981" />
+    <!-- West / X button -->
+    <path
+        android:pathData="M69,53 A 2.2 2.2 0 1 1 69,52.99 Z"
+        android:fillColor="#60A5FA" />
+    <!-- East / B button -->
+    <path
+        android:pathData="M83,53 A 2.2 2.2 0 1 1 83,52.99 Z"
+        android:fillColor="#F43F5E" />
+
+    <!-- Analog Thumbsticks -->
+    <!-- Left stick -->
+    <path
+        android:pathData="M43,60 A 4.5 4.5 0 1 1 43,59.99 Z"
+        android:fillColor="#1E293B"
+        android:strokeWidth="1.5"
+        android:strokeColor="#94A3B8" />
+    <path
+        android:pathData="M43,60 A 2 2 0 1 1 43,59.99 Z"
+        android:fillColor="#06B6D4" />
+
+    <!-- Right stick -->
+    <path
+        android:pathData="M65,60 A 4.5 4.5 0 1 1 65,59.99 Z"
+        android:fillColor="#1E293B"
+        android:strokeWidth="1.5"
+        android:strokeColor="#94A3B8" />
+    <path
+        android:pathData="M65,60 A 2 2 0 1 1 65,59.99 Z"
+        android:fillColor="#A855F7" />
+
+    <!-- Center LED / Power Indicator -->
+    <path
+        android:pathData="M54,46 A 1.8 1.8 0 1 1 54,45.99 Z"
+        android:fillColor="#38BDF8" />
+</vector>

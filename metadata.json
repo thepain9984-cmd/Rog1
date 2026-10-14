@@ -1,0 +1,6 @@
+{
+  "name": "ConsoleHUD Gamepad",
+  "description": "Customizable virtual console gaming HUD overlay with tactile haptics, draggable mapped controls, game profiles, and touch injection mapper.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
